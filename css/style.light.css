@@ -462,7 +462,7 @@ code {
 html,
 body {
   color: #fff;
-  background-color: #555;
+  background-color: #000;
   font-size: 100%; /* add PX (or original value) as backup */
   font-size: 100%;
 }
@@ -471,7 +471,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #555;
+  color: #000;
   background-color: #1999ec;
   transition: all 0.25s;
   cursor: pointer;
@@ -505,7 +505,7 @@ h6 {
 .site-header .page-title {
   color: #1999ec;
   text-align: center;
-  text-shadow: 1px 1px 2px #555;
+  text-shadow: 1px 1px 2px #000;
 }
 .site-header .page-title.with-background-image {
   color: #fff;
@@ -517,7 +517,7 @@ h6 {
 .site-menu {
   text-align: center;
   margin-top: 0.625rem;
-  text-shadow: 3px 3px 3px #555;
+  text-shadow: 3px 3px 3px #000;
 }
 .site-menu ul {
   margin: 0 auto;
@@ -606,11 +606,11 @@ h6 {
   color: #1999ec;
 }
 .post-item-wrapper .date-and-category .categories {
-  color: #555;
+  color: #000;
   background-color: #1999ec;
 }
 .post-item-wrapper .date-and-category .categories > a {
-  color: #555;
+  color: #000;
   background-color: #1999ec;
 }
 .post-item-wrapper .tags {
@@ -730,12 +730,12 @@ footer {
 }
 .pagination > li > a {
   color: #1999ec;
-  background-color: #555;
+  background-color: #000;
   border: 1px solid #1999ec;
   border-radius: 0.1875rem;
 }
 .pagination > li > a:hover {
-  color: #555;
+  color: #000;
   background-color: #1999ec;
   border: 1px solid #1999ec;
 }
